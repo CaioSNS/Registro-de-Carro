@@ -1,0 +1,25 @@
+
+public class TestaCarro {
+	public static void main(String[] args) {
+		Carro carro = new Carro(1000, "Civic", 32000);
+		Carro outroCarro = new Carro ("Sandero", 0);
+		
+		
+		System.out.println(carro.getAno());
+		System.out.println(outroCarro.getModelo());
+		System.out.println(outroCarro.getPreco());
+		
+								
+
+		
+		//carro.setAno(2015);
+		//outroCarro.setPreco(44000);
+		
+	
+		System.out.println(carro.getAno());
+		System.out.println(outroCarro.getPreco());
+
+				
+	}
+
+}
